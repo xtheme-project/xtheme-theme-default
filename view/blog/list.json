@@ -1,0 +1,11 @@
+{
+    "implements": "xtheme-lib-blog:viewtype:blog/index",
+    "strings": [
+        {
+            "id": "header",
+            "description": "The blog index header",
+            "en_US": "Blog overview",
+            "nl_NL": "Blog overzicht"
+        }
+    ]
+}

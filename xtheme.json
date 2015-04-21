@@ -1,0 +1,33 @@
+{
+    "name": "xtheme-theme-default",
+    "description": "This is the default XTheme theme",
+    "type": "theme",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com"
+        }
+    ],
+    "options": [
+        {
+            "id": "primary-color",
+            "type": "color",
+            "label": "Primary color",
+            "description": "The primary color"
+        }
+    ],
+
+    "requires": {
+        "xtheme-lib-blog": "~1.0"
+    },
+
+    "imports": [
+        "xtheme-lib-blog:viewtype:blog/index",
+        "xtheme-lib-blog:viewtype:blog/view"
+    ],
+    "exports": [
+        "view:blog/index",
+        "view:blog/view",
+        "asset:x.png"
+    ]
+}

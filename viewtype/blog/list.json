@@ -1,0 +1,11 @@
+{
+    "name": "Blog index",
+    "description": "This is the blog index",
+    "variables": [
+        {
+            "id": "blogs",
+            "description": "This is the blog array",
+            "datatype": "xtheme-lib-blog:datatype:blog"
+        }
+    ]
+}
